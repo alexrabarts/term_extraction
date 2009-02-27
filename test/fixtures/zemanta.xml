@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<rsp>
+	<status>ok</status>
+	<articles>
+		<article>
+			<url>http://www.crunchgear.com/2009/02/24/nvidia-based-imacs-coming-soon/</url>
+			<confidence>0.033153</confidence>
+			<published_datetime>2009-02-24T18:00:45Z</published_datetime>
+			<zemified>0</zemified>
+			<title>NVIDIA-based iMacs coming soon?</title>
+		</article><article>
+			<url>http://www.tuaw.com/2009/02/24/rumor-new-imacs-around-the-bend/</url>
+			<confidence>0.028595</confidence>
+			<published_datetime>2009-02-24T22:00:00Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Rumor: New iMacs around the bend</title>
+		</article><article>
+			<url>http://www.engadget.com/2009/02/24/a-few-new-rumors-point-to-two-new-nvidia-packing-imacs/</url>
+			<confidence>0.027595</confidence>
+			<published_datetime>2009-02-24T13:03:00Z</published_datetime>
+			<zemified>0</zemified>
+			<title>A few new rumors point to two new NVIDIA-packing iMacs</title>
+		</article><article>
+			<url>http://www.techmeme.com/090126/p31</url>
+			<confidence>0.019056</confidence>
+			<published_datetime>2009-01-26T17:00:22Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Chip complex delaying Apple's new iMac line, says analyst (Zach Spear/AppleInsider)</title>
+		</article><article>
+			<url>http://i.gizmodo.com/5143476/apple-warns-resellers-of-reduced-imac-availability-new-models-on-the-way</url>
+			<confidence>0.018611</confidence>
+			<published_datetime>2009-01-31T16:30:00Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Apple Warns Resellers of Reduced iMac Availability: New Models On the Way? [Apple]</title>
+		</article><article>
+			<url>http://cultofmac.com/analyst-new-imacs-delayed-for-chips-snow-leopard/7549</url>
+			<confidence>0.01685</confidence>
+			<published_datetime>2009-01-26T16:43:44Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Analyst: New iMacs Delayed For Chips, Snow Leopard</title>
+		</article><article>
+			<url>http://www.ubergizmo.com/15/archives/2008/12/new_imac_allinone_pc_confirmed.html</url>
+			<confidence>0.016311</confidence>
+			<published_datetime>2008-12-24T01:06:56Z</published_datetime>
+			<zemified>0</zemified>
+			<title>New iMac All-In-One PC Confirmed</title>
+		</article><article>
+			<url>http://www.labnol.org/gadgets/exchange-windows-pc-for-apple-mac/5775/</url>
+			<confidence>0.016238</confidence>
+			<published_datetime>2008-12-03T08:17:35Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Exchange Your Windows PC or TV for an Apple iMac</title>
+		</article><article>
+			<url>http://cultofmac.com/class-action-lawsuit-over-imac-display-problems/6562</url>
+			<confidence>0.015608</confidence>
+			<published_datetime>2009-01-02T16:17:06Z</published_datetime>
+			<zemified>0</zemified>
+			<title>Class-Action Lawsuit Over iMac Display Problems</title>
+		</article><article>
+			<url>http://www.crunchgear.com/2008/12/29/new-imacs-to-include-hotter-components-new-cooling/</url>
+			<confidence>0.015093</confidence>
+			<published_datetime>2008-12-29T23:50:04Z</published_datetime>
+			<zemified>0</zemified>
+			<title>New iMacs to include hotter components, new cooling?</title>
+		</article>
+	</articles><markup>
+		<text>apple imac</text>
+	</markup><signature>&lt;div class="zemanta-pixie"&gt;&lt;a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/3695b55a-d68e-4328-bf86-c3f01be8b2da/" title="Zemified by Zemanta"&gt;&lt;img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=3695b55a-d68e-4328-bf86-c3f01be8b2da" alt="Reblog this post [with Zemanta]" /&gt;&lt;/a&gt;&lt;/div&gt;</signature>
+	<keywords>
+		<keyword>
+			<confidence>0.404748</confidence>
+			<scheme>general</scheme>
+			<name>Apple</name>
+		</keyword><keyword>
+			<confidence>0.277753</confidence>
+			<scheme>general</scheme>
+			<name>IMac</name>
+		</keyword><keyword>
+			<confidence>0.094392</confidence>
+			<scheme>general</scheme>
+			<name>Rumor</name>
+		</keyword><keyword>
+			<confidence>0.076399</confidence>
+			<scheme>general</scheme>
+			<name>Hardware</name>
+		</keyword><keyword>
+			<confidence>0.072186</confidence>
+			<scheme>general</scheme>
+			<name>Nvidia</name>
+		</keyword><keyword>
+			<confidence>0.069183</confidence>
+			<scheme>general</scheme>
+			<name>Macintosh</name>
+		</keyword><keyword>
+			<confidence>0.050487</confidence>
+			<scheme>general</scheme>
+			<name>Desktops</name>
+		</keyword><keyword>
+			<confidence>0.039205</confidence>
+			<scheme>general</scheme>
+			<name>AllInOne</name>
+		</keyword>
+	</keywords><rid>3695b55a-d68e-4328-bf86-c3f01be8b2da</rid>
+</rsp>

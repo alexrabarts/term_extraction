@@ -4,10 +4,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "term_extraction"
-    s.summary = %Q{TODO}
+    s.summary = %Q{
+      Provides access to term extraction APIs such as Yahoo! Term Extraction API and
+      Zemanta.
+    }
     s.email = "alexrabarts@gmail.com"
     s.homepage = "http://github.com/alexrabarts/term_extraction"
-    s.description = "TODO"
+    s.description = "Term extraction library"
     s.authors = ["alex"]
   end
 rescue LoadError

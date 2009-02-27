@@ -1,7 +1,31 @@
-term_extraction===============
-Description goes here.
+= term_extraction
+
+== DESCRIPTION:
+
+Provides access to term extraction APIs such as Yahoo! Term Extraction API and
+Zemanta.
+
+== SYNOPSIS:
+
+  # Query Yahoo! for terms
+  yahoo = TermExtraction::Yahoo.new(:api_key => 'myApiKey', :context => 'xbox 360 gears of war')
+  yahoo.terms # => ["gears of war", "xbox 360", "gears", "xbox"]
+
+  # Query Zemanta for terms
+  zemanta = TermExtraction::Zemanta.new(:api_key => 'myApiKey', :context => 'apple imac')
+  zemanta.terms # => ["Apple", "IMac", "Rumor", "Hardware", "Nvidia", "Macintosh", "Desktops", "AllInOne"]
+
+== INSTALL:
+
+* Via git:
+
+    git clone git://github.com/alexrabarts/term_extraction.git
+
+* Via gem:
+
+    gem install alexrabarts-term_extraction -s http://gems.github.com
 
 COPYRIGHT
 =========
 
-Copyright (c) 2008 alex. See LICENSE for details.
+Copyright (c) 2009 Stateless Systems (http://statelesssystems.com). See LICENSE for details.
