@@ -3,7 +3,8 @@ require 'nokogiri'
 class TermExtraction
   class Yahoo < TermExtraction
     def terms
-      terms   = []
+      terms = []
+      data  = Nokogiri::XML.parse(remote_xml)
 
       unless data.nil?
         data.search('//s:Result', ns).each do |n|
@@ -42,10 +43,6 @@ class TermExtraction
 
       def remote_xml
         open(url).read
-      end
-
-      def data
-        @data ||= Nokogiri::XML.parse(remote_xml)
       end
   end
 end

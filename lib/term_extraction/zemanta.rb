@@ -5,13 +5,14 @@ class TermExtraction
   class Zemanta < TermExtraction
     def terms
       terms = []
+      data  = Nokogiri::XML.parse(remote_xml)
 
       data.search('//name').each do |n|
         terms << n.text
       end
 
       terms
-    end  
+    end
 
     class << self
       def canonical_name
@@ -40,10 +41,6 @@ class TermExtraction
 
       def remote_xml
         Net::HTTP.post_form(url, post_params).body
-      end
-
-      def data
-        @data ||= Nokogiri::XML.parse(remote_xml)
       end
   end
 end
