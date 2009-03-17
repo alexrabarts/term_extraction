@@ -41,7 +41,12 @@ class TermExtraction
       end
 
       def remote_xml
-        Net::HTTP.post_form(uri, post_params).body
+        begin
+          Net::HTTP.post_form(uri, post_params).body
+        rescue => e
+          $stderr.puts "Couldn't fetch from API: #{e.message}" if $VERBOSE
+          nil
+        end
       end
   end
 end

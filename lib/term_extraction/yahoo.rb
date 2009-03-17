@@ -43,7 +43,12 @@ class TermExtraction
       end
 
       def remote_xml
-        open(uri).read
+        begin
+          open(uri).read
+        rescue => e
+          $stderr.puts "Couldn't fetch from API: #{e.message}" if $VERBOSE
+          nil
+        end
       end
   end
 end
