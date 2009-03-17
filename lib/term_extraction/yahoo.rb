@@ -1,4 +1,6 @@
 require 'nokogiri'
+require 'addressable/uri'
+require 'open-uri'
 
 class TermExtraction
   class Yahoo < TermExtraction
@@ -13,7 +15,17 @@ class TermExtraction
       end
 
       terms
-    end 
+    end
+
+    def uri
+      api_uri = Addressable::URI.parse(gateway)
+      api_uri.query_values = {
+         'appid'   => @api_key,
+         'output'  => 'xml',
+         'context' => @context
+      }
+      api_uri
+    end
 
     class << self
       def canonical_name
@@ -30,19 +42,8 @@ class TermExtraction
         'http://search.yahooapis.com/ContentAnalysisService/V1/termExtraction'
       end
 
-      def url
-        uri = Addressable::URI.parse(gateway)
-        uri.query_values = {
-           # TODO: Change appid to the BMP one
-           'appid'   => @api_key,
-           'output'  => 'xml',
-           'context' => @context
-        }
-        uri
-      end
-
       def remote_xml
-        open(url).read
+        open(uri).read
       end
   end
 end
