@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{term_extraction}
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["alex"]
-  s.date = %q{2009-03-05}
+  s.date = %q{2009-03-17}
   s.description = %q{Term extraction library}
   s.email = %q{alexrabarts@gmail.com}
   s.files = ["VERSION.yml", "lib/term_extraction", "lib/term_extraction/yahoo.rb", "lib/term_extraction/zemanta.rb", "lib/term_extraction.rb", "test/fixtures", "test/fixtures/yahoo.xml", "test/fixtures/yahoo2.xml", "test/fixtures/zemanta.xml", "test/fixtures/zemanta2.xml", "test/term_extraction_test.rb", "test/test_helper.rb"]
