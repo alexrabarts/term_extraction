@@ -3,7 +3,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "term_extraction"
+    s.name = "term-extraction"
     s.summary = %Q{
       Provides access to term extraction APIs such as Yahoo! Term Extraction API and
       Zemanta.
