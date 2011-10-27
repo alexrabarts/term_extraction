@@ -17,15 +17,9 @@ Zemanta.
 
 == INSTALL:
 
-* Via git:
-
-    git clone git://github.com/alexrabarts/term_extraction.git
-
-* Via gem:
-
-    gem install alexrabarts-term_extraction -s http://gems.github.com
+  gem install term-extraction
 
 COPYRIGHT
 =========
 
-Copyright (c) 2009 Stateless Systems (http://statelesssystems.com). See LICENSE for details.
+Copyright (c) 2011 Stateless Systems (http://statelesssystems.com). See LICENSE for details.
