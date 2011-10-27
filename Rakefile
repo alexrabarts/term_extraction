@@ -12,7 +12,6 @@ begin
     s.homepage = "http://github.com/alexrabarts/term_extraction"
     s.description = "Term extraction library"
     s.authors = ["alex"]
-    s.add_dependency 'nokogiri', ['>=1.0.7']
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

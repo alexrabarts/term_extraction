@@ -2,6 +2,7 @@ source :rubygems
 
 gem 'rake'
 gem 'rdoc'
+gem 'nokogiri', '>=1.0.7'
 
 group :development do
   gem 'jeweler'
