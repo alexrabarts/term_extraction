@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{term-extraction}
-  s.version = "1.0.0"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["alex"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "lib/term_extraction.rb",
     "lib/term_extraction/yahoo.rb",
     "lib/term_extraction/zemanta.rb",
+    "term-extraction.gemspec",
     "test/fixtures/yahoo.xml",
     "test/fixtures/yahoo2.xml",
     "test/fixtures/zemanta.xml",
