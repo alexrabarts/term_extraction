@@ -12,7 +12,7 @@ class Test::Unit::TestCase
     FakeWeb.clean_registry
     FakeWeb.allow_net_connect = false
     response = File.open(File.join(File.dirname(__FILE__), 'fixtures', fixture)).read
-    FakeWeb.register_uri(method, uri.to_s, :string => response)
+    FakeWeb.register_uri(method, uri.to_s, :body => response)
   end
 
   def teardown
