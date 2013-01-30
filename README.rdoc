@@ -17,7 +17,10 @@ Zemanta.
 
 == INSTALL:
 
-  gem install term-extraction
+  gem install term_extraction
+
+  ## Gemfile for Rails 3, Sinatra, and Merb
+  gem 'term_extraction', '~> 0.1.7'
 
 COPYRIGHT
 =========
