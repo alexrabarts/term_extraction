@@ -10,7 +10,8 @@ begin
     }
     s.email = "alexrabarts@gmail.com"
     s.homepage = "http://github.com/alexrabarts/term_extraction"
-    s.description = "Term extraction library"
+    s.description = "Provides access to term extraction APIs such as Yahoo! Term Extraction API and
+      Zemanta."
     s.authors = ["alex"]
   end
 rescue LoadError
