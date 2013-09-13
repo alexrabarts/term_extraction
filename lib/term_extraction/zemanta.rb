@@ -1,6 +1,6 @@
 require 'net/http'
 require 'nokogiri'
-require 'addressable/uri'
+require 'uri'
 
 class TermExtraction
   class Zemanta < TermExtraction
@@ -16,7 +16,7 @@ class TermExtraction
     end
 
     def uri
-      Addressable::URI.parse(gateway)
+      URI.parse gateway
     end
 
     def post_params

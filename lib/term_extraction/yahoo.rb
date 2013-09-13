@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'uri'
 require 'addressable/uri'
 require 'open-uri'
 
@@ -20,9 +21,7 @@ class TermExtraction
     def uri
       api_uri = Addressable::URI.parse(gateway)
       api_uri.query_values = {
-         'appid'   => @api_key,
-         'output'  => 'xml',
-         'context' => @context
+        'q' => "select * from search.termextract where context=\"#{@context}\""
       }
       api_uri
     end
@@ -39,7 +38,7 @@ class TermExtraction
       end
 
       def gateway
-        'http://search.yahooapis.com/ContentAnalysisService/V1/termExtraction'
+        'http://query.yahooapis.com/v1/public/yql'
       end
 
       def remote_xml

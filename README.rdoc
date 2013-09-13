@@ -2,14 +2,13 @@
 
 == DESCRIPTION:
 
-Provides access to term extraction APIs such as Yahoo! Term Extraction API and
-Zemanta.
+Provides access to term extraction APIs such as Yahoo! YQL and Zemanta.
 
 == SYNOPSIS:
 
   # Query Yahoo! for terms
-  yahoo = TermExtraction::Yahoo.new(:api_key => 'myApiKey', :context => 'xbox 360 gears of war')
-  yahoo.terms # => ["gears of war", "xbox 360", "gears", "xbox"]
+  yahoo = TermExtraction::Yahoo.new(:context => 'Italian sculptors and painters of the renaissance favored the Virgin Mary for inspiration')
+  yahoo.terms # => ["Italian sculptors", "the Virgin Mary"]
 
   # Query Zemanta for terms
   zemanta = TermExtraction::Zemanta.new(:api_key => 'myApiKey', :context => 'apple imac')
@@ -17,7 +16,11 @@ Zemanta.
 
 == INSTALL:
 
-  gem install term-extraction
+  gem install term-extraction # require 'term_extraction'
+
+Or in your `Gemfile`:
+
+  gem 'term-extraction', require => 'term_extraction'
 
 COPYRIGHT
 =========
