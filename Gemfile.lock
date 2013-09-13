@@ -1,6 +1,7 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
+    addressable (2.3.5)
     fakeweb (1.3.0)
     git (1.2.5)
     jeweler (1.6.4)
@@ -21,6 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable
   fakeweb
   jeweler
   mocha
