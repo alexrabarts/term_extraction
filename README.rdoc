@@ -1,4 +1,5 @@
 = term_extraction
+{<img src="https://travis-ci.org/alexrabarts/term_extraction.png" alt="Build Status" />}[https://travis-ci.org/alexrabarts/term_extraction]
 
 == DESCRIPTION:
 
