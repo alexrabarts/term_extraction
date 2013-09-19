@@ -8,4 +8,5 @@ gemspec
 group :test do
   gem 'shoulda'
   gem 'mocha'
+  gem 'fake_web'
 end
